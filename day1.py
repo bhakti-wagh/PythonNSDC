@@ -13,3 +13,13 @@ Enter "help" below or click "Help" above for more information.
 >>> 
 >>> #Rich Ecosystem:-> Free , open-source , thousands of ready-made libraries
 >>> 
+>>> #use python 3
+>>> 
+>>> #Why python importand:->
+>>> 
+>>> # Easy to learn
+>>> #high demand
+>>> #versatile:-> one language for web, data, AI , automation and IoT
+>>> 
+>>> #Huge libraries:-> install ready tools with pip: numpy, pandas, Django
+>>> #Big community
