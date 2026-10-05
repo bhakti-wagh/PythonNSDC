@@ -45,29 +45,72 @@ Enter "help" below or click "Help" above for more information.
 #Powerful libraries:-> numpy , pandas, scikit-learn,tensorFlow , pytorch
 #Fast underneath:-> heavy work runs in c/c++ code,called from python
 #Notebook:-> jupyter and colab
->>> #Cloud support:-> Azure , aws, google and openAI give python SDKs
->>> 
->>> print(True+True)
+#Cloud support:-> Azure , aws, google and openAI give python SDKs
+
+print(True+True)
 2
->>> print(False+False)
+print(False+False)
 0
->>> s="python"
->>> print(s,type(s))
+s="python"
+print(s,type(s))
 python <class 'str'>
->>> print(lend(s))
+print(lend(s))
 Traceback (most recent call last):
   File "<pyshell#51>", line 1, in <module>
     print(lend(s))
 NameError: name 'lend' is not defined. Did you mean: 'len'?
->>> print(len(s))
+print(len(s))
 6
->>> print("Hi"+"!")
+print("Hi"+"!")
 Hi!
->>> print("Ab"*3)
+print("Ab"*3)
 AbAbAb
->>> 
->>> n=42
->>> print(10**20)
+
+n=42
+print(10**20)
 100000000000000000000
->>> print(type(n))
+print(type(n))
 <class 'int'>
+
+text="Good Morning "
+text[::-1]
+' gninroM dooG'
+text[::]
+'Good Morning '
+text[-5]
+'n'
+text[0:5]
+'Good '
+
+text[7:10]
+'rni'
+text[5:9]
+'Morn'
+
+text[5]
+'M'
+>>> 
+>>> print("good evening")
+good evening
+>>> x=good evening
+SyntaxError: invalid syntax
+>>> x="good evening"
+>>> x.upper()
+'GOOD EVENING'
+>>> 
+>>> x.lower()
+'good evening'
+>>> 
+>>> s.split(".")
+['python']
+>>> x.split(".")
+['good evening']
+>>> x.split()
+['good', 'evening']
+>>> "*".join(x)
+'g*o*o*d* *e*v*e*n*i*n*g'
+>>> 
+>>> "e".find(x)
+-1
+>>> x.find('e')
+5
