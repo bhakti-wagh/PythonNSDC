@@ -25,29 +25,22 @@ True
 isinstance(90.0,float)
 True
 
->>> 
->>> isinstance(2,float)
+
+isinstance(2,float)
 False
->>> 
->>> #Difference between type() vs isinstance()
->>> 
->>> #isinstance:-> we pass data type
->>> 
->>> 
->>> 
->>> 
->>> #Dynamic Typing and expression types
->>> 
->>> #Dynamic:Type belongs to the value not the variable
->>> #/:-> quotient
->>> #//:-> quotient with only integer part
->>> 
->>> 
->>> 
->>> 
->>> #Collection Data types
->>> 
->>> #List:-> order data type / mutable data type :[]
->>> #Tuple:-> order collection that cannot be changed : ()
->>> #set :-> unordered collection unique items/ mutable : {}
->>> #dict:-> order data type/ mutable data type/ key-value pair: {key:value}
+
+ #Difference between type() vs isinstance()
+ 
+ #isinstance:-> we pass data type
+ 
+ #Dynamic Typing and expression types
+ #Dynamic:Type belongs to the value not the variable
+#/:-> quotient
+ #//:-> quotient with only integer part
+ 
+ #Collection Data types
+ 
+#List:-> order data type / mutable data type :[]
+ #Tuple:-> order collection that cannot be changed : ()
+ #set :-> unordered collection unique items/ mutable : {}
+#dict:-> order data type/ mutable data type/ key-value pair: {key:value}
