@@ -20,6 +20,7 @@
 
 
 
+'''
 #Last digit :-> n%10
 #Remove last digit:-> n//10
 
@@ -37,3 +38,8 @@ print()
 x=153
 print(x%10) #3
 print(x//10)#15
+'''
+
+
+
+s
