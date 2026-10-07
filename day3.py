@@ -97,7 +97,7 @@ print(7+3*2**2-1)#18
 
 
 #simple calculator
-
+'''
 a=float(input("Enter number:"))
 b=float(input("Enter number:"))
 print("Add:",a+b)
@@ -107,7 +107,7 @@ print("divide:",a/b)
 print("Floor div:",a//b)
 print("rem:",a%b)
 print("power:",a**b)
-
+'''
 #o/p:
 '''
 Enter number:20
