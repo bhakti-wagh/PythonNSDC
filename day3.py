@@ -82,6 +82,7 @@ print(name or "Unknown") #Unknown)
 
 
 #Lab1
+'''
 print(16+4*2) #24
 print((16+4)*2)#40
 print(16/4)#4.0
@@ -92,3 +93,31 @@ print(-16//4)#-4
 print(16.0//4)#4.0
 print(25/5)#5.0
 print(7+3*2**2-1)#18
+'''
+
+
+#simple calculator
+
+a=float(input("Enter number:"))
+b=float(input("Enter number:"))
+print("Add:",a+b)
+print("sub:",a-b)
+print("mul:",a*b)
+print("divide:",a/b)
+print("Floor div:",a//b)
+print("rem:",a%b)
+print("power:",a**b)
+
+#o/p:
+'''
+Enter number:20
+Enter number:5
+Add: 25.0
+sub: 15.0
+mul: 100.0
+divide: 4.0
+Floor div: 4.0
+rem: 0.0
+power: 3200000.0
+
+'''
