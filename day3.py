@@ -40,8 +40,6 @@ print(x%10) #3
 print(x//10)#15
 '''
 
-
-
 x=20
 print(-x) #-20
 print(+x) #20
