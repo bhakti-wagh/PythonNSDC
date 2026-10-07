@@ -42,4 +42,14 @@ print(x//10)#15
 
 
 
-s
+x=20
+print(-x) #-20
+print(+x) #20
+print(-(-x)) #20
+print(-x**2) #-400
+print(10- -2) #12
+
+y=-4
+print(abs(y),-y)# 4 4
+
+
