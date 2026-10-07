@@ -19,6 +19,10 @@
 
 
 
+
+#Last digit :-> n%10
+#Remove last digit:-> n//10
+
 n=24
 print(n%2==0)#True
 print(n%3==0)#False
@@ -26,4 +30,10 @@ print(n%7) #3
 print(n//7)#3
 
 hours=5
-print(hours%24)
+print(hours%24)#5
+
+
+print()
+x=153
+print(x%10) #3
+print(x//10)#15
