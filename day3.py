@@ -17,3 +17,13 @@
 #identify:-> is , is not  # same object in memory
 #Containment:-> in , not in  #is value inside a sequence
 
+
+
+n=24
+print(n%2==0)#True
+print(n%3==0)#False
+print(n%7) #3
+print(n//7)#3
+
+hours=5
+print(hours%24)
