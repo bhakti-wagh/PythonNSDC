@@ -121,3 +121,44 @@ rem: 0.0
 power: 3200000.0
 
 '''
+'''
+x=7
+
+print(x>5 and x<10)
+print(x>5 and x>10)
+print(x<5 or x==7)
+print(not x==7)
+print(5<x<10)
+print(0 or "none")
+print(7 and 0)
+print(x!=7 or x%2==1)
+'''
+'''
+True
+False
+True
+False
+True
+none
+0
+True
+'''
+
+n= int(input("enter number:"))
+
+print("Even:", n%2==0)
+print("Divisibility by 3:", n%3==0)
+print("Divisibility by 5:", n%5==0)
+print("Last digit:" ,n%10)
+print("Without last digit:", n//10)
+print("Square:",n**2)
+
+'''
+enter number:15
+Even: False
+Divisibility by 3: True
+Divisibility by 5: True
+Last digit: 5
+Without last digit: 1
+Square: 225
+'''
