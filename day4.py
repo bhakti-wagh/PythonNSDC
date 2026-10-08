@@ -37,7 +37,7 @@ hambdabad
 '''
 
 
-
+'''
 #format() and f-string()
 item,qty, price="pen",3,12.5
 
@@ -53,7 +53,7 @@ print("A","B","C",sep="-",end="!\n")
 #a-b-a
 print("{n} is{a}".format(n="Ravi",a=21))
 
-
+'''
 #op
 '''
 pen*3 =37.5
@@ -65,3 +65,41 @@ left     |    right|
 A-B-C!
 Ravi is21
 '''
+
+
+#Branching:-> if,elif,else
+
+def detail():
+    
+    name=eval(input("Enter you name:"))
+
+    if name=='bhakti':
+        marks=eval(input("enter marks:"))
+        attendance=eval(input("Enter attendance:"))
+        if marks>=90 and attendance>=80:
+            print(f"Excellent:{name}")
+
+        elif marks>=75 and attendance>=60:
+            print(f"very Good:{name}")
+
+        elif marks>=50 and attendance>=50:
+            print(f"Good:{name}")
+
+        else:
+            print(f"Not good:{name}")
+
+detail()
+
+#O/P
+'''
+Enter you name:'bhakti'
+enter marks:85
+Enter attendance:85
+very Good:bhakti
+'''
+
+
+
+
+
+
