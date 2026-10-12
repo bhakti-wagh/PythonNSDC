@@ -92,7 +92,7 @@ if x>3:
     print("B")
 '''
 
-
+'''
 if 0.1+0.2==0.3:
     print("Equal")
 else:
@@ -106,3 +106,60 @@ if []:
 
 print(bool([]),bool([0]),bool(None))
       
+'''
+
+'''
+text="Your time is limited , So don't waste it leaving someonelse's life"
+clean= text.strip().lower()
+
+vowels=(clean.count("a")+clean.count("e")+clean.count("i")+clean.count("o")+clean.count("u"))
+#23
+
+words=clean.split()
+
+print("Words:",len(words))
+print("Vowels:",vowels)
+print("longest word:",max(words,key=len))
+print("Title case", clean.title())
+print("snake case:",clean.replace(" ","_"))
+print("Starts with 'the':",clean.startswith("the"))
+'''
+
+#o/p:
+'''
+Words: 12
+Vowels: 23
+longest word: someonelse's
+Title case Your Time Is Limited , So Don'T Waste It Leaving Someonelse'S Life
+snake case: your_time_is_limited_,_so_don't_waste_it_leaving_someonelse's_life
+Starts with 'the': False
+'''
+
+
+#Loops:
+
+#for:-> repeats once for each item of sequence
+#while:-> repeats as long as the condition is True
+'''
+total=0
+for n in range(1,10):
+    total+=n
+print(total)
+
+count=0
+while count<5:
+    print("count is",count)
+    count+=1
+'''
+
+
+print(list(range(5)),list(range(2,10,3)),list(range(5,0,-2)))
+
+for i in range(10):
+    if i==3:
+        continue
+
+    if i==6:
+        break
+    print(i,end=" ")
+print()
