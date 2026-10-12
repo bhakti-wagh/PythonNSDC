@@ -160,7 +160,7 @@ count is 2
 count is 3
 count is 4'''
 
-
+'''
 print(list(range(5)),list(range(2,10,3)),list(range(5,0,-2)))
 
 for i in range(10):
@@ -171,8 +171,14 @@ for i in range(10):
         break
     print(i,end=" ")
 print()
-
+'''
 #o/p
 '''
 [0, 1, 2, 3, 4] [2, 5, 8] [5, 3, 1]
 0 1 2 4 5 '''
+
+
+size=3
+for r in range(size):
+    print(" "*(size-r-1)+"*"*(2*r+1))
+   
