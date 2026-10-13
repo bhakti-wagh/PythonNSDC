@@ -55,13 +55,14 @@ Second largest number:67
 
 #Number pattern with nested for loop
 '''
-n=5
+n=10
 
-for i in range(1,6,1):
+for i in range(1,11,1):
     for j in range(1,i+1):
 
-        i-=1
+        
         print(j,end=" ")
+        i-=1
 
     print()
 for i in range(n-1,0,-1):
@@ -69,8 +70,8 @@ for i in range(n-1,0,-1):
         print(j,end=" ")
 
     print()
-        
-'''
+ '''       
+
 #o/p:
 '''
 1 
@@ -233,7 +234,7 @@ b=1
 count=0
 
 while  a<=num:
-    print(a,end=" ")
+    print(a,end=" ") #Formula:-> Fn=Fn-1 +Fn-2
     
     c=a+b
     a=b
@@ -301,21 +302,23 @@ Thank you for using ATM!
 
 #Function with while loop-> decimal to binary converter
 
-
+'''
 def decimal_to_binary(number):
 
     
-    decimal=0
+    binary=0
 
     i=1
 
     while number>0:
+        
         rem=number%2
-        number=number+rem*i
+        binary=binary+rem*i
         number=number//2
 
-        i+=1
+        i=i*10
 
-        return decimal
+    return binary
 
 print(decimal_to_binary(25))
+'''
