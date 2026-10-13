@@ -194,7 +194,7 @@ Reversed number:12321
 
 #sum of digits unitl a single digit
 
-
+'''
 number = 9875
 print("Original Number:", number)
 
@@ -214,6 +214,87 @@ while number >= 10:
     step += 1
 
 print("Final Single Digit:", number)
+'''
+#o/p:
+'''
+Original Number: 9875
+Step 1: 29
+Step 2: 11
+Step 3: 2
+Final Single Digit: 2
+'''
 
 
-   
+#Fibonacci series with while loop
+'''
+num=100
+a=0
+b=1
+count=0
+
+while  a<=num:
+    print(a,end=" ")
+    
+    c=a+b
+    a=b
+    b=c
+
+    count+=1
+
+print()
+
+print(f"Total Tersms:{count}")
+'''
+#o/p:
+'''
+0 1 1 2 3 5 8 13 21 34 55 89 
+Total Tersms:12'''
+
+
+#Atm withdrawl simulation
+
+bal=10000
+
+choice=eval(input("Enter choice:"))
+
+while choice!=0:
+
+    if choice==1:
+        print(f"Total balance:{bal}")
+        break
+    elif choice==2:
+        Amt=eval(input("Enter amount:"))
+        bal= bal+Amt
+        print(f"Total balance:{bal}")
+        break
+    elif choice==3:
+        WithAmt=eval(input("Enter amount for withdrawl:"))
+
+        if WithAmt>bal:
+            print("Insufficient balance")
+
+        else:
+            bal-=WithAmt
+            print("Withdrawl Successful!")
+            print(f"Remaining Balance :{bal}")
+        break
+
+    elif choice==4:
+        print("Thank you for using ATM!")
+        break
+
+    else:
+        print("Enter valid choice")
+
+
+#o/p:
+'''
+Enter choice:3
+Enter amount for withdrawl:500
+Withdrawl Successful!
+Remaining Balance :9500
+
+Enter choice:4
+Thank you for using ATM!
+
+'''
