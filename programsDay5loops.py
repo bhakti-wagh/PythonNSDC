@@ -307,16 +307,15 @@ def decimal_to_binary(number):
     
     decimal=0
 
-    i=0
+    i=1
 
     while number>0:
         rem=number%2
-        number=number+rem*2(2**i)
-        binary=binary//2
+        number=number+rem*i
+        number=number//2
 
         i+=1
 
+        return decimal
 
-    print(f"decimal :{decimal}")
-
-decimal_to_binary(25)
+print(decimal_to_binary(25))
