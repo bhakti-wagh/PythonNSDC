@@ -252,7 +252,7 @@ Total Tersms:12'''
 
 
 #Atm withdrawl simulation
-
+'''
 bal=10000
 
 choice=eval(input("Enter choice:"))
@@ -286,7 +286,7 @@ while choice!=0:
     else:
         print("Enter valid choice")
 
-
+'''
 #o/p:
 '''
 Enter choice:3
@@ -298,3 +298,25 @@ Enter choice:4
 Thank you for using ATM!
 
 '''
+
+#Function with while loop-> decimal to binary converter
+
+
+def decimal_to_binary(number):
+
+    
+    decimal=0
+
+    i=0
+
+    while number>0:
+        rem=number%2
+        number=number+rem*2(2**i)
+        binary=binary//2
+
+        i+=1
+
+
+    print(f"decimal :{decimal}")
+
+decimal_to_binary(25)
