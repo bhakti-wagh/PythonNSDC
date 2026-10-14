@@ -92,7 +92,7 @@ print(order("bottle",express=True))
 
 '''
 
-
+'''
 square=lambda x:x**2
 print(square(6)) #36
 
@@ -109,7 +109,7 @@ def factorial(n):
     return n*factorial(n-1)
 
 print(factorial(5))#120
-
+'''
 #o/p:
 '''
 36
@@ -117,5 +117,27 @@ print(factorial(5))#120
 [2, 4, 6]
 [0, 2, 4, 6]
 120'''
+
+'''
+x="Hello world"
+count=0
+i=len(x)-1
+
+while i >= 0 and x[i] == ' ':
+             i -= 1
+
+
+
+while i<=0 and x[i] !=' ':
+    count+=1
+    i-=1
+    
+'''
+s
+
+
+
+    
+    
 
 
