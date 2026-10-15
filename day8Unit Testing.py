@@ -1,6 +1,6 @@
 import unittest
 
-from calculator import add,sub,mul
+from calculator import add,sub,mul,div
 
 class TestAddition(unittest.TestCase):
 
@@ -12,6 +12,9 @@ class TestAddition(unittest.TestCase):
 
     def test_mul(self):
         self.assertEqual(mul(2,4),8)
+
+    def test_div(self):
+        self.assertEqual(div(4,2),2)
 
 
 if __name__=="__main__":
