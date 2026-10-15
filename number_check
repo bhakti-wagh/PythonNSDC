@@ -1,12 +1,10 @@
 def even(a):
-
-    if a%2==0:
+    if a % 2 == 0:
         return 'even'
 
 
 def odd(a):
-
-    if a%2!=0:
+    if a % 2 != 0:
         return 'odd'
 
 
@@ -21,5 +19,3 @@ def is_prime(num):
             count += 1
 
     return count == 2
-
-
