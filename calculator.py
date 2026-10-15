@@ -11,3 +11,9 @@ def mul(a,b):
 
 def div(a,b):
     return a/b
+
+
+def even(a):
+
+    if a%2==0:
+        return 'even'

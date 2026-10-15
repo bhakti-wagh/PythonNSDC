@@ -1,6 +1,6 @@
 import unittest
 
-from calculator import add,sub,mul,div
+from calculator import add,sub,mul,div,even
 
 class TestAddition(unittest.TestCase):
 
@@ -15,6 +15,9 @@ class TestAddition(unittest.TestCase):
 
     def test_div(self):
         self.assertEqual(div(4,2),2)
+
+    def test_even(self):
+        self.assertEqual(even(4),'even')
 
 
 if __name__=="__main__":
