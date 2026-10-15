@@ -17,3 +17,9 @@ def even(a):
 
     if a%2==0:
         return 'even'
+
+
+def odd(a):
+
+    if a%2!=0:
+        return 'odd'
